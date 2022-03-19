@@ -102,6 +102,8 @@ BOOL CYFSTest2Dlg::OnInitDialog()
 
 	int  iCount = 1; //first count commit
 
+	iCount = iCount++; //second count commit 
+
 	return TRUE;  // return TRUE  unless you set the focus to a control
 }
 
