@@ -108,6 +108,10 @@ BOOL CYFSTest2Dlg::OnInitDialog()
 
 	int iDev2 = iDev1 + iCount * 2; //dev2  test push remote 
 
+	//刚把Dev2合并到master。并没有远程推到master，因此即使删除远程dev1，master还是原来的
+
+	int iDev3 = iDev2 + iDev1 * 10; //dev3 test merage and push remote 
+
 	return TRUE;  // return TRUE  unless you set the focus to a control
 }
 
