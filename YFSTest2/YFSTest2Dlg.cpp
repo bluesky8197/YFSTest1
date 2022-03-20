@@ -106,6 +106,8 @@ BOOL CYFSTest2Dlg::OnInitDialog()
 
 	int iDev1 = iCount*iCount; //test dev1  to commit 
 
+	int iDev2 = iDev1 + iCount * 2; //dev2  test push remote 
+
 	return TRUE;  // return TRUE  unless you set the focus to a control
 }
 
